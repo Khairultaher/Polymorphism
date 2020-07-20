@@ -39,7 +39,7 @@ namespace Polymorphism
         }
         public string Dhumpan(string huka, int biri)
         {
-            return $"{huka} & {biri}: Dhoya";
+            return $"{huka} & {biri}: More Dhoya";
         }
         public int Dhumpan(int biri, string huka)
         {
@@ -51,7 +51,7 @@ namespace Polymorphism
     {
         public override string Dhumpan(string pipe, string ebiri)
         {
-            return $"{pipe} & {ebiri}: More Dhoya";
+            return $"{pipe} & {ebiri}: More & More Dhoya";
         }
     }
 }
