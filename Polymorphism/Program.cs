@@ -35,7 +35,7 @@ namespace Polymorphism
     {
         public virtual string Dhumpan(string huka, string biri)
         {
-            return $"{huka} & {biri}: Dhoya";
+            return $"{huka} & {biri}: More Dhoya";
         }
         public string Dhumpan(string huka, int biri)
         {
